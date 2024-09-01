@@ -15,6 +15,8 @@ function getDadJoke(){
             // Change the text content of the h1 element
             var myObj = JSON.parse(this.response);
             theJoke.textContent = myObj.value;
+        }else{
+            theJoke.textContent = 'something is off!!!';
         }
     }
     
