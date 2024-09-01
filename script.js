@@ -22,3 +22,4 @@ function getDadJoke(){
     
     myRequest.send();
 }
+document.addEventListener('DOMContentLoaded', getDadJoke);
